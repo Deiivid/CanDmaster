@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Black">#000000</color>
+    <color name="Green">#43C549</color>
+    <color name="Blue">#0959CD</color>
+    <color name="Yellow">#DCEC06</color>
+    <color name="Orange">#FF6600</color>
+    <color name="Purple">#A500FF</color>
+    <color name="White">#FFFFFF</color>
+    <color name="fondo">#CD0EB8E3</color>
+    <color name="entrenamients">#FA034747</color>
+    <color name="vacunas">#7714DFD8</color>
+    <color name="gray_500">#686465</color>
+</resources>

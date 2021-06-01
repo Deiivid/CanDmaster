@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Salud.SaludFragmentos.Salud_Higuiene">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp">
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="308dp"
+            android:layout_height="139dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/higuieneperrobonito" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="@color/White"
+        android:layout_below="@+id/imageView2"
+        android:text="¿Cuantas veces se puede Duchar a un perro?" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="20dp"
+
+            android:text="La frecuencia del baño es muy diferente entre los perros de pelo corto y los de pelo largo. Estos últimos necesitan más cuidados y hay que estar más pendiente de su imagen, es normal, tienen más pelo donde se puede esconder el polvo y la suciedad. Entonces, ¿cada cuánto tengo que bañar a mi perro según el largo de su pelo? A continuación te mostramos unos tiempos orientativos:"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:textSize="19dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageView2"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+
+            android:text="
+Perros de pelo largo: una vez cada cuatro semanas.
+\n
+\n
+Perro de pelo medio: una vez entre cada cuatro y seis semanas.
+\n
+\n
+Perros de pelo corto: una vez entre cada seis y ocho semanas.
+\n
+\n
+"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageView2"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+
+            android:text="!!!!!Recuerda que debes lavarlos con champús específicos para perros!!!!!"
+
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+
+    </TableLayout>
+    </ScrollView>
+
+
+</FrameLayout>

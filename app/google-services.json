@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "591225341884",
+    "project_id": "proyectocandmasterdnm",
+    "storage_bucket": "proyectocandmasterdnm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591225341884:android:0d261ccd7680976df60db9",
+        "android_client_info": {
+          "package_name": "com.example.candmasterdavidproyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591225341884-lnikkp5cdcf970fn1ohe855acpu1mvn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfC46BD00BvCTDr1Q7MUaIewmM3WGG5w0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591225341884-lnikkp5cdcf970fn1ohe855acpu1mvn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

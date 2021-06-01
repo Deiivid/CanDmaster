@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Salud.SaludFragmentos.Salud_accesorios">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <!-- TODO: Update blank fragment layout -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="186dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/pngaccesoriosperro" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="@color/White"
+                android:layout_below="@+id/imageView2"
+                android:text="¿Tu perro Come con demasiada Ansia?" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="20dp"
+
+                android:text="Si es asi te recomendamos que pruebes con algun comedero especial, mostrado justo aqui debajo, recuerda que hay de muchos tipos y diferentes colores elige el que mas te guste "
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="19dp" />
+
+            <ImageView
+            android:id="@+id/imagenansias"
+            android:layout_width="308dp"
+            android:layout_height="139dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/comederoansias" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+
+                android:text="Tipos de Correa"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="1. Correa convencional \n 2. Correa de púas\n 3. Correa extensible \n4. Correa de metal \n  5. Correa de ahorque \n 6. Correa multiposición \n7. Correa Halti"                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="20dp"
+                 />
+
+
+        </TableLayout>
+    </ScrollView>
+
+
+</FrameLayout>

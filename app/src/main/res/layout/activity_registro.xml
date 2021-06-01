@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlUsuarios.Firebase.RegistroActivity"
+    android:background="@color/White"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.529">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/peerito" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#A4000000"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/loginimagen"
+            android:layout_width="124dp"
+            android:layout_height="131dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/circulo_image"
+            app:srcCompat="@drawable/iconologinbonito" />
+
+        <EditText
+            android:id="@+id/emailtxtregistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginimagen"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginRight="30dp"
+            android:ems="10"
+            android:textColor="#ccc"
+            android:hint="Email"
+            android:background="@drawable/input"
+            android:textColorHint="#ccc"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <EditText
+            android:id="@+id/passwordtxtregistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailtxtregistrar"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:ems="10"
+            android:background="@drawable/input"
+            android:textColorHint="#ccc"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ccc"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="343dp" />
+
+
+
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordtxtregistrar"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#d0000000"
+            android:text="REGISTRARSE"
+            android:background="@drawable/btn_redondeado_white"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="460dp" />
+
+        <TextView
+            android:id="@+id/Tienescuentainiciosesion"
+            android:layout_width="271dp"
+            android:layout_height="29dp"
+            android:layout_below="@+id/btnregister"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="¿TIENES CUENTA? INICIA SESION DESDE AQUI"
+            android:textColor="#ccc"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+</RelativeLayout>

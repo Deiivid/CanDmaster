@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Carga.Pantalla_Info"
+    android:background="#8ABBDEFB"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></LinearLayout>
+    <ImageView
+        android:id="@+id/iconoimagenlogo1info"
+        android:layout_width="274dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="60dp"
+        app:srcCompat="@drawable/iconofondoapp" />
+
+    <TextView
+        android:id="@+id/textview1info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconoimagenlogo1info"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="La APP de perros que estabas buscando, encontraras"
+        android:textColor="@color/Black"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview2info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1info"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="Cursos de Adiestramientos."
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textview3info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview2info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="Informacion sobre tu mascota."
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textview4info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview3info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="Protectoras Cercanas(Por si estas queriendo adoptar, coger en acogida)."
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textview5info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview4info"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="Veterinarios Cercanos(Por si tu amigo de 4 patas necesita un veterinario y no sabes donde hay)."
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textview6info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview5info"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="Conocimientos basicos (Salud,Comida,Ducha)."
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btnInfoPrimero"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview6info"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:background="@drawable/btn_redondeado_white"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="191dp"
+        android:text="Estoy Listo" />
+
+
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Salud.SaludFragmentos.Salud_Vacunas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp">
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="308dp"
+                android:layout_height="139dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/vacunasframeicono" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:textColor="@color/White"
+                android:layout_below="@+id/imageView2"
+                android:text="Este es el calendario básico de vacunas para perros en España" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="A las 6 semanas: Primovacunación o primera vacuna."
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="A las 8 semanas: Polivalente"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textColor="@color/White"
+                android:textSize="19dp"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="A las 16 semanas: Rabia."
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Anualmente: la Polivalente y de la Rabia"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="19dp"
+                android:textStyle="bold|italic"/>
+
+
+
+
+            <ImageView
+                android:id="@+id/vacunaidcuriosidades"
+                android:layout_width="308dp"
+                android:layout_height="139dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/bombillavacunas" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="-Curiosidades-"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="29dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="¿Contra que protegen?"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="19dp"
+                android:textStyle="bold|italic"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="Pentavalente que inmuniza contra moquillo, adenovirus 1 y 2 (hepatitis y tos de las perreras), parvovirus y parainfluenza. "
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="19dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="Octovalente que inmuniza contra moquillo, adenovirus 1 y 2 (hepatitis y tos de las perreras), 2 cepas causantes de leptospirosis, parvovirus, parainfluenza y coronavirus."
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="19dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="Hexavalente que inmuniza contra moquillo, adenovirus 1 y 2 (hepatitis y tos de las perreras), 2 cepas causantes de leptospirosis y parvovirus."
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="19dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="En cuanto a la rabia, las vacunas en perros hacen que el animal cree una respuesta inmunológica contra el virus. El perro está protegido a los 14 días tras la inyección de la vacuna. Si ha sido administrada correctamente su efectividad es del 100%. La primera administración de la vacuna tiene duración de 1 año. Posteriormente la duración aumenta hasta 2-3 años. Vacunar cachorros de menos de 12 semanas de edad no es efectivo, ya que los anticuerpos maternos contrarrestan el efecto."
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="19dp" />
+
+        </TableLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Salud.Salud_Menu">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/perroinfo"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#99000000"
+        android:gravity="center"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnHiguiene"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Higuiene"
+                android:textSize="10dp" />
+
+
+            <Button
+                android:id="@+id/btnComida"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginTop="5dp"
+                android:text="Comida"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/btnVacunas"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginTop="5dp"
+                android:text="Vacunas"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/btnAccesorios"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Accesorios"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/FragmentSaludcontainer">
+
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

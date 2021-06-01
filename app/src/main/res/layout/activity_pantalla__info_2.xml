@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8ABBDEFB"
+
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/iconoimagenlogo1info"
+        android:layout_width="294dp"
+        android:layout_height="154dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="50dp"
+        app:srcCompat="@drawable/iconofondoapp" />
+
+    <TextView
+        android:id="@+id/textview1info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconoimagenlogo1info"
+        android:layout_marginTop="21dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="IMPORTANTE"
+        android:textColor="@color/Black"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview2info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1info"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="CanDmaster no se responsabiliza de que el usuario por compra de un curso no consiga alcanzar los objetivos con su perro.
+Cada mascota es de una manera, donde cabe la insistencia de cada amo en su entrenamiento, Con la consiguiente aceptacion se exime a Candmaster de toda Culpa."
+        android:textColor="@color/Black"
+        android:textSize="22sp"
+        android:textStyle="normal" />
+
+
+
+    <CheckBox
+        android:id="@+id/AceptarTerminos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview2info"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:background="@drawable/btn_redondeado_white"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="191dp"
+        android:text="Aceptar Terminos" />
+
+
+
+</RelativeLayout>
